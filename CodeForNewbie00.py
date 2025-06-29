@@ -28,6 +28,48 @@ print("a * b = " + str(a*b))
 print("a / b = " + str(a/b))
 print("a % b = " + str(a%b))   //in ra kết quả của các phép tính cơ bản với hai số nguyên a,b được nhập từ bàn phím
 
+#06
+a = int(input())
+b = int(input())
+a,b = b,a
+print("after swap a = " + str(a) + ", b = " + str(b)) //in ra hai số a,b được nhập từ bàn phím sau khi đã hoán đổi vị trí
+
+#07
+pi=3.14
+r=float(input())
+print("Circumference = " + str(2*pi*r)) //in ra chu vi hình tròn với bán kính r nhập từ bán phím và số pi được gán là 3.14 
+
+#08
+a = int(input())
+h = int(input())
+
+area = (a*h)/2
+
+print("The area of triangle is " + str(area)) // in  ra diện tích tam giác với cạnh a và chiều cao h được nhập từ bàn phím
+
+#09
+a = int(input())
+b = int(input())
+print(a**b) //in ra a mũ b với a,b được nhập từ bàn phím
+
+#10
+a = int(input())
+Total = int(input())
+Total += a # Using += Operator
+print("The Value of the Total after using += Operator is:", Total)
+Total -=a # Using -= Operator
+print("The Value of the Total after using -= Operator is:", Total)
+Total *=a # Using *= Operator
+print("The Value of the Total after using *= Operator is:", Total)
+Total //=a  # Using //= Operator
+print("The Value of the Total after using //= Operator is:", Total)
+Total **=a  # Using **= Operator
+print("The Value of the Total after using **= Operator is:", Total)
+Total /=a  # Using /= Operator
+print("The Value of the Total after using /= Operator is:", Total)
+Total %=a  # Using %= Operator
+print("The Value of the Total after using %= Operator is:", Total)
+
 
 
 
