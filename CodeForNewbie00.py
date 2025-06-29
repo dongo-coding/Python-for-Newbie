@@ -10,4 +10,9 @@ width = 3.5
 print("Area: " + str(length*width))
 print("Perimeter: " + str(2*(length + width))) // in diện tích và chu vi hình chữ nhật bằng cách nối chuỗi và số bằng str
 
+#03
+name = ("Hello " + input())  // nhập name từ bàn phím và in ra Hello + với name đã nhập từ bàn phím
+print(name)
+
+
 
