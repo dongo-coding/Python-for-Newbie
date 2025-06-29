@@ -70,6 +70,21 @@ print("The Value of the Total after using /= Operator is:", Total)
 Total %=a  # Using %= Operator
 print("The Value of the Total after using %= Operator is:", Total)
 
+#11
+x = input()
+print('H' in x) //kiểm tra xem kí tự H có nằm trong xâu x được nhập vào hay không, do ở đây testcase có kq là True nên ta thêm in
+
+#12
+age=int(input())
+if(age<5):
+    print("Your cat is young")
+else:
+    print("Your cat is old") // mệnh đề if-else đơn giản
+
+#13
+
+
+
 
 
 
