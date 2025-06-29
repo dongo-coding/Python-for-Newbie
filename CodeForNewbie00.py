@@ -14,5 +14,10 @@ print("Perimeter: " + str(2*(length + width))) // in diện tích và chu vi hì
 name = ("Hello " + input())  // nhập name từ bàn phím và in ra Hello + với name đã nhập từ bàn phím
 print(name)
 
+#04
+name=input()
+age=int(input())
+print("In 15 years, age of " + name + " will be " + str(age+15))
+
 
 
