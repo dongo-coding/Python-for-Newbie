@@ -19,5 +19,15 @@ name=input()
 age=int(input())
 print("In 15 years, age of " + name + " will be " + str(age+15)) //in ra tuổi của một người sau 15 năm với tên được nhập từ bàn phím
 
+#05
+a=int(input())
+b=int(input())
+print("a + b = " + str(a+b))
+print("a - b = " + str(a-b))
+print("a * b = " + str(a*b))
+print("a / b = " + str(a/b))
+print("a % b = " + str(a%b))   //in ra kết quả của các phép tính cơ bản với hai số nguyên a,b được nhập từ bàn phím
+
+
 
 
