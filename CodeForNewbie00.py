@@ -17,7 +17,7 @@ print(name)
 #04
 name=input()
 age=int(input())
-print("In 15 years, age of " + name + " will be " + str(age+15))
+print("In 15 years, age of " + name + " will be " + str(age+15)) //in ra tuổi của một người sau 15 năm với tên được nhập từ bàn phím
 
 
 
